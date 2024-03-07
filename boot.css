@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Edu+TAS+Beginner:wght@500&family=Poiret+One&display=swap');
+
+
+body{
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-photo/watercolor-texture-color-wallpaper_53876-94669.jpg?w=1060&t=st=1707724702~exp=1707725302~hmac=e70517208407807aedec11a14d220686f18ae939e8d2228dc7034d58398b7364);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.016);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    color: white;
+    margin-left: 20px;
+}
+.opt{
+    color: white;
+    margin: 5px;
+    padding:5px;
+    margin-right: 20px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.mainpage{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+.video{
+    width:500px;
+}
+.right{
+    font-family: Atma;
+    margin-left: 80px;
+    color: white;
+    margin-right: 220px;
+}
+.intro{
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.heading1{
+    margin-top: 30vh;
+    font-family: Black Ops One;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    padding:  10px;
+    margin-left: 35vw;
+    margin-right: 35vw;
+
+}
+.Services{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.heading2{
+    margin-top: 30vh;
+    font-family: Black Ops One;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    padding:  20px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.tags{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.insta{
+    margin: 2px;
+}
+.insta:hover{
+    opacity: 0.2;
+}
+.link:hover{
+    opacity: 0.2;
+}
+.link{
+    margin: 2px;
+}
+.card:hover{
+    opacity: 0.5;
+}
+
+.opt:hover{
+    opacity: 0.5;
+}
+
+.form{
+    margin-top: 50px;
+    margin-left: 40vw;
+    color: white;
+    width: 300px;
+    padding: 25px;
+    
+}
+#name,#email,textarea{
+    border-radius: 10px;
+}
+
+#button{
+ margin-left: 90px;
+ border-radius: 10px;
+
+}
